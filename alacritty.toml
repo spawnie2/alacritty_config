@@ -1,4 +1,5 @@
 [general]
+working_directory = "C:\\Users\\josep"
 
 [font]
 
@@ -33,7 +34,7 @@ cyan = "#449dab"
 green = "#9ece6a"
 magenta = "#ad8ee6"
 red = "#ff9e64"
-white = "#b4b9f8"
+white = "#565f89"
 yellow = "#f9e2af"
 
 [colors.dim]
@@ -46,7 +47,29 @@ red = "#ff9e64"
 white = "#9699a8"
 yellow = "#f9e2af"
 
-[colors.hints]
+[colors.search.focused_match]
+foreground = "#111111"
+background = "#222222"
+
+[colors.search.matches]
+foreground = "#111111"
+background = "#222222"
+
+# [colors.hints.start]
+# foreground = "#111111"
+# background = "#222222"
+#
+# [colors.hints.end]
+# foreground = "#111111"
+# background = "#222222"
+
+[colors.cursor]
+cursor = "CellForeground"
+
+
+[colors.selection]
+foreground = "CellForeground"
+background = "#292e42"
 
 [colors.primary]
 background = "#1a1b26"
@@ -54,6 +77,9 @@ foreground = "#c0caf5"
 
 [selection]
 save_to_clipboard = true
+
+[terminal] 
+shell = "powershell" 
 
 [mouse]
 bindings = [
