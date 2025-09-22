@@ -1,5 +1,5 @@
 [general]
-working_directory = "C:\\Users\\josep"
+working_directory = "C:\\Users\\jbarthel"
 
 [font]
 
@@ -20,12 +20,12 @@ dimensions = { columns = 195, lines = 35}
 [colors.bright]
 black = "#32344a"
 blue = "#7aa2f7"
-cyan = "#7aa2f7"
+cyan = "#7dcfff"
 green = "#9ece6a"
 magenta = "#ad8ee6"
 red = "#ff9e64"
-white = "#9699a8"
-yellow = "#89ddff"
+white = "#c0caf5"
+yellow = "#e0af68"
 
 [colors.normal]
 black = "#32344a"
