@@ -85,3 +85,8 @@ shell = "powershell"
 bindings = [
 { mouse = "Right", mods = "Control", action = "Paste" },
 ]
+
+[keyboard]
+bindings = [
+{ key = "Backspace", mods = "Control",  chars = "\u0017"} 
+]
