@@ -3,11 +3,11 @@ working_directory = "C:\\Users\\jbarthel"
 
 [font]
 
-normal = { family = "FiraCode Nerd Font" } 
+normal = { family = "FiraCode Nerd Font Mono" } 
 
-bold =  { family = "FiraCode Nerd Font",  style="bold" } 
+bold =  { family = "FiraCode Nerd Font Mono",  style="bold" } 
 
-italic =  { family = "FiraCode Nerd Font", style="italic" } 
+italic =  { family = "FiraCode Nerd Font Mono", style="italic" } 
 
 size = 14
 
@@ -15,7 +15,11 @@ size = 14
 WINIT_X11_SCALE_FACTOR = "1.0"
 
 [window]
-dimensions = { columns = 195, lines = 35}
+dimensions = { columns = 150, lines = 35}
+opacity = 0.87 
+
+[colors]
+transparent_background_colors = true
 
 [colors.bright]
 black = "#32344a"
@@ -55,17 +59,8 @@ background = "#222222"
 foreground = "#111111"
 background = "#222222"
 
-# [colors.hints.start]
-# foreground = "#111111"
-# background = "#222222"
-#
-# [colors.hints.end]
-# foreground = "#111111"
-# background = "#222222"
-
 [colors.cursor]
 cursor = "CellForeground"
-
 
 [colors.selection]
 foreground = "CellForeground"
