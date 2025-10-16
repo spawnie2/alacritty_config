@@ -85,5 +85,6 @@ bindings = [
 bindings = [
 { key = "Backspace", mods = "Control",  chars = "\u0017"},
 { key = "PageUp", action = "ScrollHalfPageUp"},
-{ key = "PageDown", action = "ScrollHalfPageDown"}
+{ key = "PageDown", action = "ScrollHalfPageDown"},
+{ key = "n", mods = "Control | Shift", action = "CreateNewWindow" }
 ]
