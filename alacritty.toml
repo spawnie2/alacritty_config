@@ -16,65 +16,101 @@ WINIT_X11_SCALE_FACTOR = "1.0"
 
 [window]
 dimensions = { columns = 150, lines = 35}
-opacity = 0.87 
+opacity = 0.99  
+
+[cursor]
+style = { shape = "Beam", blinking = "Off" }
 
 [colors]
 transparent_background_colors = true
 
-[colors.bright]
-black = "#32344a"
-blue = "#7aa2f7"
-cyan = "#7dcfff"
-green = "#9ece6a"
-magenta = "#ad8ee6"
-red = "#f7768e"
-white = "#c0caf5"
-yellow = "#e0af68"
+# -----------------------------------------------------------------------------
+# TokyoNight Alacritty Colors
+# Theme: Tokyo Night
+# Upstream: https://github.com/folke/tokyonight.nvim/raw/main/extras/alacritty/tokyonight_night.toml
+# -----------------------------------------------------------------------------
 
-[colors.normal]
-black = "#32344a"
-blue = "#7aa2f7"
-cyan = "#449dab"
-green = "#9ece6a"
-magenta = "#ad8ee6"
-red = "#ff9e64"
-white = "#565f89"
-yellow = "#f9e2af"
-
-[colors.dim]
-black = "#1a1b26"
-blue = "#7aa2f7"
-cyan = "#449dab"
-green = "#9ece6a"
-magenta = "#ad8ee6"
-red = "#ff9e64"
-white = "#9699a8"
-yellow = "#f9e2af"
-
-[colors.search.focused_match]
-foreground = "#111111"
-background = "#222222"
-
-[colors.search.matches]
-foreground = "#111111"
-background = "#222222"
-
-[colors.cursor]
-cursor = "CellForeground"
-
-[colors.selection]
-foreground = "CellForeground"
-background = "#292e42"
-
+# Default colors
 [colors.primary]
-background = "#1a1b26"
-foreground = "#c0caf5"
+background = '#1a1b26'
+foreground = '#c0caf5'
 
+# Normal colors
+[colors.normal]
+black = '#15161e'
+red = '#f7768e'
+green = '#9ece6a'
+yellow = '#e0af68'
+blue = '#7aa2f7'
+magenta = '#bb9af7'
+cyan = '#7dcfff'
+white = '#a9b1d6'
+
+# Bright colors
+[colors.bright]
+black = '#414868'
+red = '#ff899d'
+green = '#9fe044'
+yellow = '#faba4a'
+blue = '#8db0ff'
+magenta = '#c7a9ff'
+cyan = '#a4daff'
+white = '#c0caf5'
+# Tokyonight storm
+# [colors.bright]
+# black = "#24283b"
+# blue = "#7aa2f7"
+# cyan = "#7dcfff"
+# green = "#9ece6a"
+# magenta = "#ad8ee6"
+# red = "#f7768e"
+# white = "#c0caf5"
+# yellow = "#e0af68"
+#
+# [colors.normal]
+# black = "#24283b"
+# blue = "#7aa2f7"
+# cyan = "#449dab"
+# green = "#9ece6a"
+# magenta = "#ad8ee6"
+# red = "#ff9e64"
+# white = "#565f89"
+# yellow = "#f9e2af"
+#
+# [colors.dim]
+# black = "#24283b"
+# blue = "#7aa2f7"
+# cyan = "#449dab"
+# green = "#9ece6a"
+# magenta = "#ad8ee6"
+# red = "#ff9e64"
+# white = "#9699a8"
+# yellow = "#f9e2af"
+#
+# [colors.search.focused_match]
+# foreground = "#111111"
+# background = "#222222"
+#
+# [colors.search.matches]
+# foreground = "#111111"
+# background = "#222222"
+#
+# [colors.cursor]
+# cursor = "CellForeground"
+#
+# [colors.selection]
+# foreground = "CellForeground"
+# background = "#292e42"
+#
+# [colors.primary]
+# background = "#24283b"
+# foreground = "#c0caf5"
+#
 [selection]
 save_to_clipboard = true
 
 [terminal] 
-shell = "powershell" 
+shell = "pwsh.exe" 
 
 [mouse]
 bindings = [
